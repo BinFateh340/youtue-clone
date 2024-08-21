@@ -35,7 +35,7 @@ class App extends React.Component {
               <Grid item xs={12}>
                 <SearchBar onFormSubmit={this.handleFormSubmit} />
               </Grid>
-              <Grid item xs={8}>
+              <Grid item xs={12}>
                 <VideoDetail video={selectedVideo} />
               </Grid>
               <Grid item xs={4}>
